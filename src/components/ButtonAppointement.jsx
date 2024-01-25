@@ -1,13 +1,20 @@
-import React from 'react'
-import WPIcon from '../assets/WhatsappIcon.svg'
+import React from 'react';
 
-const ButtonAppointement = () => {
+const ButtonAppointement = ({ bgColor, imageSrc, textColor }) => {
+  const buttonStyle = `${bgColor} rounded-full p-4 inline-flex items-start box-border relative mt-2`;
+  const imageStyle = 'h-6 w-6';
+  const textStyle = `text-${textColor} font-sora-semibold text-lg font-semibold`;
+
   return (
-    <button className="bg-white  py-2 px-4 rounded-full flex items-center">
-        <img src={WPIcon} alt=" Whatsapp" className="w-5 h-5 mr-2" />
-        <span className="text-blue-500 text-lg font-sora font-semibold">Book an appointment</span>
+    <button className={buttonStyle}>
+      <div className="inline-flex items-start gap-2">
+        <img className={imageStyle} alt="Icon" src={imageSrc} />
+        <div className={textStyle}>
+          Book an appointment
+        </div>
+      </div>
     </button>
-  )
-}
+  );
+};
 
-export default ButtonAppointement
+export default ButtonAppointement;

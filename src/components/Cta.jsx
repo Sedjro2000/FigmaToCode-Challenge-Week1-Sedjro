@@ -16,8 +16,8 @@ const CTA = () => {
                 <div className="w-full opacity-80 text-center text-white text-base font-sora font-normal leading-6">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas egestas viverra turpis habitant eu sociis fermentum felis.
                 </div>
-                <ButtonAppointement />
-             
+                
+                <ButtonAppointement bgColor="white" imageSrc="whatsapp.svg" textColor="blue-1" />
 
 
             </div>
