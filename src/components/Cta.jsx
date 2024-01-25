@@ -1,5 +1,6 @@
 import React from 'react'
 import ButtonAppointement from './ButtonAppointement'
+import Whatsapp from '../assets/whatsapp/svg'
 
 const CTA = () => {
   return (
@@ -17,7 +18,7 @@ const CTA = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas egestas viverra turpis habitant eu sociis fermentum felis.
                 </div>
                 
-                <ButtonAppointement bgColor="white" imageSrc="whatsapp.svg" textColor="blue-1" />
+                <ButtonAppointement bgColor="white" imageSrc={Whatsapp} textColor="blue-1" />
 
 
             </div>

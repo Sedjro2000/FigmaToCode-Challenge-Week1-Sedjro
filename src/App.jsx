@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import Reviews from './components/Reviews'
 import CTA from './components/CTA'
 import Services from './components/Services'
