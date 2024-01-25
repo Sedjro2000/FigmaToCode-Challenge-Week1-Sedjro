@@ -1,6 +1,6 @@
 import React from 'react'
 import ButtonAppointement from './ButtonAppointement'
-import Whatsapp from '../assets/whatsapp/svg'
+import Whatsapp from '../assets/whatsapp.svg'
 
 const CTA = () => {
   return (
