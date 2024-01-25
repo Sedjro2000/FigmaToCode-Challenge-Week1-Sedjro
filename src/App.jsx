@@ -2,9 +2,8 @@ import './App.css'
 import React from 'react'
 import Footer from './components/Footer'
 import Reviews from './components/Reviews'
-import CTA from './components/CTA'
+import CTA from './components/Cta'
 import Services from './components/Services'
-import ServicesCard from './components/ServicesCard'
 
 function App() {
 
