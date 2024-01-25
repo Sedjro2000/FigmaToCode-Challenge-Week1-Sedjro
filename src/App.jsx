@@ -1,6 +1,10 @@
 import './App.css'
 import React from 'react'
 import Footer from './components/footer'
+import Reviews from './components/Reviews'
+import CTA from './components/CTA'
+import Services from './components/Services'
+import ServicesCard from './components/ServicesCard'
 
 function App() {
 
@@ -8,7 +12,11 @@ function App() {
   return (
     <>
       <div>Bonjur</div>
+      <Services />
+      <CTA />
+      <Reviews />
       <Footer />
+    
 
     </>
   )
