@@ -4,13 +4,14 @@ import Footer from './components/Footer'
 import Reviews from './components/Reviews'
 import CTA from './components/Cta'
 import Services from './components/Services'
+import Header from './components/Header'
 
 function App() {
 
 
   return (
     <>
-      <div>Bonjur</div>
+     <Header />
       <Services />
       <CTA />
       <Reviews />

@@ -6,7 +6,7 @@ const CTA = () => {
   return (
     <>
         <div>
-            <div className="w-full text-center text-teal-500 text-2xl font-medium tracking-wider break-words font-poppins font-semibold">
+            <div className="w-full text-center text-teal-500 text-2xl  tracking-wider break-words font-poppins font-semibold">
                     Book an appointment
             </div>
 
