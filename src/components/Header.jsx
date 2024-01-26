@@ -4,8 +4,8 @@ import messageIcone from '../assets/message-circle.svg'
 
 const Header = () => {
   return (
-    <div >
-        <header className='p-4 mx-32 bg-blue-50 '>
+    <div className='bg-blue-50 ' >
+        <header className='p-4 mx-32  '>
             <div className='flex justify-between '>
                 <div className='relative my-auto'>
                     <span className='text-blue-500 text-2xl font-sora font-semibold break-words'>Doctor</span>

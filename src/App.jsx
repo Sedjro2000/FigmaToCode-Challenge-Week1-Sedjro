@@ -4,14 +4,15 @@ import Footer from './components/Footer'
 import Reviews from './components/Reviews'
 import CTA from './components/Cta'
 import Services from './components/Services'
-import Header from './components/Header'
+import Presentation from './components/Presentation'
 
 function App() {
 
 
   return (
     <>
-     <Header />
+    
+     <Presentation />
       <Services />
       <CTA />
       <Reviews />
